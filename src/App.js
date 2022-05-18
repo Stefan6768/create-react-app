@@ -49,7 +49,7 @@ function App(props) {
       >
         <li className="todo stack-small">
           <div className="c-cb">
-            <input id="todo-0" type="checkbox" defaultChecked={true} />
+            <input id="todo-0" type="checkbox" defaultChecked={true}/>
             <label className="todo-label" htmlFor="todo-0">
               Eat
             </label>
@@ -65,7 +65,7 @@ function App(props) {
         </li>
         <li className="todo stack-small">
           <div className="c-cb">
-            <input id="todo-1" type="checkbox" />
+            <input id="todo-1" type="checkbox"/>
             <label className="todo-label" htmlFor="todo-1">
               Sleep
             </label>
@@ -81,7 +81,7 @@ function App(props) {
         </li>
         <li className="todo stack-small">
           <div className="c-cb">
-            <input id="todo-2" type="checkbox" />
+            <input id="todo-2" type="checkbox"/>
             <label className="todo-label" htmlFor="todo-2">
               Repeat
             </label>
@@ -99,26 +99,4 @@ function App(props) {
     </div>
   );
 }
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
 export default App;
